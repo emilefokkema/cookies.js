@@ -11,4 +11,5 @@ require(["trackState"],function(){
 		deserialize:function(s){input.value = s;}
 	});
 	trackState.read();
+	saveButton.addEventListener('click',function(){trackState.write();})
 });
