@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/madmurphy/cookies.js/issues"
   },
-  "homepage": "https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework"
+  "homepage": "https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework",
+  "devDependencies": {
+    "amdclean": "^2.7.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-requirejs": "^1.0.0"
+  }
 }
